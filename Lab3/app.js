@@ -2,9 +2,9 @@ import http from "http";
 
 const server = http.createServer((req, res) => {
   res.setHeader("Content-Type", "text/html");
-  res.end("<h1 style = 'color: blue;'>Welcome to server</h1>");
+  res.end("<h1>SIH Internal</h1>");
 });
 
-server.listen(3000, () => {
-  console.log("Server is running on port 3000");
+server.listen(5000, () => {
+  console.log("Server is running on port 5000");
 });
