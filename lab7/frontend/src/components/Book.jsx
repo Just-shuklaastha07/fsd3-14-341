@@ -1,12 +1,12 @@
 export default function Book(props) {
- const{rating, bname, price, quantity,picUrl} = props.book;
+ const{rating, bname, price, quantity, picUrl} = props.book;
  const qtystyle={
   fontSize:"1rem",
   color:"blue",
   textAlign:"center",
   backgroundColor:"lightgray",
   padding:"0.5rem",
- };
+ }; 
  return (
     <div className="book">
       <img 

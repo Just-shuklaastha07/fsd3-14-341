@@ -43,3 +43,6 @@ Apply with preview and pass the object
 3. Inline CSS= in this method we use two curly braces with style attributes
 All the CSS property must be single word.
 For example:text-Align becomes textAlign
+
+rafce= arrow function
+rfce= simple function
