@@ -6,7 +6,7 @@ const products =[
 ];
 
 const ListItem = products.map((item)=> 
-    <li>{item.title}</li>);
+    <li key={item.id}>{item.title}</li>);
 console.log(ListItem);
 
 const Fruit =() => {
