@@ -3,6 +3,7 @@ import Pen from "./components/Pen";
 import { books } from "./data/books.js";
 import { pens } from "./data/pens.js";
 import Fruit from "./components/Fruit.jsx";
+import Event from "./components/Event.jsx";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
     <Pen pen={pens[1]} />
 </div>
 <Fruit />
+<Event />
 </>
   );
 }

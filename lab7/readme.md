@@ -47,5 +47,6 @@ For example:text-Align becomes textAlign
 rafce= arrow function
 rfce= simple function
 
+# App.jsx should be minimum code.
 
-App.jsx should be minimum code.
+#  By Default Button in html is Submit button.
