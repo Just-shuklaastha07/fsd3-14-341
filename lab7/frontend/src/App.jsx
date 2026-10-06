@@ -16,6 +16,7 @@ export default function App() {
     <Pen pen={pens[0]} />
     <Pen pen={pens[1]} />
 </div>
+<Fruit />
 </>
   );
 }
